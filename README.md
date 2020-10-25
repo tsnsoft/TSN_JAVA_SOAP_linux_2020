@@ -59,7 +59,8 @@ http://localhost:8194/mysoap/test?wsdl
 <soap:address location="http://localhost:8194/mysoap/test"/>
 </wsdl:port>
 </wsdl:service>
-</wsdl:definitions>```
+</wsdl:definitions>
+```
 
 [Почитать по теме](https://examples.javacodegeeks.com/enterprise-java/jws/jax-ws-endpoint-example)
 
