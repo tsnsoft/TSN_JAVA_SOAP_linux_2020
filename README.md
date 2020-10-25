@@ -5,10 +5,9 @@
 
 http://localhost:8194/mysoap/test?wsdl
 ```
-This XML file does not appear to have any style information associated with it. The document tree is shown below.
-<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://soap.java.tsn/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="CommunicationWithClientService" targetNamespace="http://soap.java.tsn/">
+<wsdl:definitions name="CommunicationWithClientService" targetNamespace="http://soap.java.tsn/">
 <wsdl:types>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://soap.java.tsn/" elementFormDefault="unqualified" targetNamespace="http://soap.java.tsn/" version="1.0">
+<xs:schema elementFormDefault="unqualified" targetNamespace="http://soap.java.tsn/" version="1.0">
 <xs:element name="quadraticEquation" type="tns:quadraticEquation"/>
 <xs:element name="quadraticEquationResponse" type="tns:quadraticEquationResponse"/>
 <xs:complexType name="quadraticEquation">
@@ -60,8 +59,7 @@ This XML file does not appear to have any style information associated with it. 
 <soap:address location="http://localhost:8194/mysoap/test"/>
 </wsdl:port>
 </wsdl:service>
-</wsdl:definitions>
-```
+</wsdl:definitions>```
 
 [Почитать по теме](https://examples.javacodegeeks.com/enterprise-java/jws/jax-ws-endpoint-example)
 
